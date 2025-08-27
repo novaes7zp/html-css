@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            background-color: rgb(60, 60, 60);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            
+        }
+        .center{
+            text-align: center;
+        }
+        .logo{
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 40px;
+        }
+        .logo span{
+            color: #c80b0b;
+        }
+        .search input{
+            width: 300px;
+            max-width: 90%;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 24px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+        .search input focus{
+            border-color: #1a73e8;
+            
+        }
+    </style>
+</head>
+<body>
+    <main class="center">
+        <h1 class="logo"> Ricardo <span>Gostoso.com</span></h1>
+
+       <form class="search" action="#" method="get">
+            <input 
+                type="text"
+                name="q"
+                placeholder="Digite sua pesquisa"
+                aria-label="Campo de pesquisa"
+                autofocus
+            >
+       </form>
+</body>
+</html>

@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: 'Android';
+        src: url('fontes/IDroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body {
+        background-color: rgb(148, 255, 116);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #ph1 {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+        color: rgb(235, 235, 235);
+    }
+    #p1 {
+        text-align: center;
+        padding-top: 25px;
+        color: rgb(235, 235, 235);
+    }
+    header {
+
+        background-image: linear-gradient(to bottom, rgb(131, 255, 90), rgb(19, 82, 32));
+        height: 232px;
+        
+    }
+    nav > a {
+        font-weight: bold;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    nav {
+        padding: 3px;
+        text-indent: 10px;
+        margin-top: 50px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        
+        background-color: rgba(0, 128, 0, 0.677);
+    }
+    main {
+        margin: 60px;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #h1domascote {
+        color: green;
+        font: normal normal 1.5em 'Android';
+        padding-top: 15px;
+        letter-spacing: 3px;
+        text-indent: 15px;
+        
+    }
+    #p3 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-indent: 30px;
+        text-align: justify;
+    }
+    #h2primeirav {
+        background-color: rgba(0, 128, 0, 0.186);
+        color: green;
+        font: normal normal 1.3em 'Android';
+        letter-spacing: 3px;
+        text-indent: 15px;
+    }
+    #p4 {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-indent: 30px;
+        text-align: justify;
+    }
+    #p5 {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-indent: 30px;
+        text-align: justify;
+    }
+    #nomedan {
+        color: rgb(50, 115, 50);
+    }
+    #fimdapag{
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(148, 255, 116);
+    }
+    #fim {
+        background-color: white;
+        
+    }
+    #p6 {
+        text-indent: 30px;
+        text-align: justify;
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+    #p7 {
+        text-indent: 30px;
+        text-align: justify;
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+    #p8 {
+        text-indent: 5px;
+        background-color: rgb(22, 87, 22);
+        border-radius: 10px;
+        height: 30px;
+        font-weight: bold;
+        color: white;
+        text-indent: 10px;
+        padding-top: 10px;
+    }
+
+    #p9 {
+       text-indent: 30px;
+       text-align: justify;
+       padding-left: 10px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 100px;
+        padding: 20px;
+    }
+    #p10 {
+        text-align: justify;
+        padding-left: 10px;
+        text-indent: 30px;
+        padding: 10px;
+        margin-top: -30px;
+    }
+    #p11 {
+        text-align: justify;
+        text-indent: 10px;
+        padding-left: 20px;
+        padding-right: 15px;
+        margin-top: 55px;
+        padding-bottom: 20px;
+    }
+    #p12 {
+        text-align: justify;
+        text-indent: 30px;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+    .verde {
+        color: green;
+    }
+    #tmcerto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    picture img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    #bugdroidcenter {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    #bugcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+    }
+    #videocenter {
+        
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        margin: 10% auto;
+        overflow: hidden;
+        padding-top: 56.25%;
+        border-radius: 5px;
+    }
+    #videocenter iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #fundo {
+        background-color: rgb(46, 116, 46);
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }      
+    #teste {
+        background-color: rgb(27, 113, 27);
+        text-align: center;      
+        width: 100%;
+    }
+    

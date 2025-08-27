@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferetes ou simplesmente aumente ou diminua o temanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reprodutor de audio</h1>
+    <audio preload="auto" autoplay controls>
+
+        <source src="media/TETO - SAVANA.mp3" type="audio/mp3">
+        <p>Seu navegador não suporta o elemento <code>audio!</code></p>
+    </audio>
+    <h2>Video clipe da musica acima</h2>
+        <video width="470" controls autoplay>
+            <source src="media/TETO - SAVANA.mp4" type="video/mp4">
+        </video>
+    <h2>Testando video com hospedagem usando o youtube incorporando o video no codigo.</h2>
+    <iframe width="470" height="315" src="https://www.youtube.com/embed/dMr0aJLa4Bg?si=OrO41g5YzNcY9UaB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+</body>
+</html>

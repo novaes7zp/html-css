@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio imagens flexivel</title>
+</head>
+<body>
+    <h1>Desafio para faer uma imagem flexivel</h1>
+    <p>A imagem abaixo esta disponivel para qualquer tela!!</p>
+
+    <picture>
+        <source media="(max-width: 590px)" srcset="desafio/paisagem-p.jpeg" type="image/png">
+        <source media="(max-width: 1120px)" srcset="desafio/paisagem-m.jpeg" type="image/jpeg">
+
+        <img src="desafio/paisagem.webp" alt="paisagem">
+    </picture>
+
+</body>
+</html>
